@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() { console.log('STAI Workshop website loaded'); const buttons = document.querySelectorAll('.button'); buttons.forEach(button => { button.addEventListener('click', function() { alert('Button clicked!'); }); }); });
